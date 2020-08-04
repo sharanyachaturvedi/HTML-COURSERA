@@ -1,0 +1,105 @@
+        body {
+            background-color: #000;
+            color: black;
+            font-family: 'Fjalla One', sans-serif;
+        }
+        
+        .navbar {
+            min-height: 110px;
+        }
+        /*header navigation bar*/
+        
+        #header-nav {
+            background-color: #fee121;
+            border-radius: 0px;
+            border: 0;
+            color: black;
+        }
+        /*Navbar brand name*/
+        
+        .navbar-brand h1 {
+            font-size: 2em;
+            color: black;
+            text-shadow: 2px 1px 1px rgb(37, 35, 61);
+            font-stretch: expanded;
+            padding-left: 1px;
+            margin-bottom: 0px;
+        }
+        /*Navbar random text styling*/
+        
+        .navbar-brand p {
+            color: rgb(37, 35, 61);
+            font-style: italic;
+            font-stretch: expanded;
+            padding-left: 1px;
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        
+        .navbar-text {
+            color: black;
+            padding: 15px;
+            padding-top: 100px;
+        }
+        
+        .navbar-text span {
+            color: rgb(37, 35, 61);
+            font-style: italic;
+            font-stretch: expanded;
+        }
+        
+        #nav-list a {
+            color: black;
+            padding: 10px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        #nav-list a:hover {
+            color: blue;
+        }
+        
+        #phone {
+            padding-top: 0px;
+            text-align: right;
+            padding-bottom: 1px;
+            margin-bottom: 1px;
+        }
+        
+        #phone a {
+            padding-bottom: 0px;
+        }
+        
+        #date-text {
+            padding: 10px;
+            padding-top: 21px;
+        }
+        
+        #date-text a:hover {
+            color: black;
+        }
+        
+        .navbar-header button.navbar-toggle,
+        .navbar-header .icon-bar {
+            border: 1px solid #000000;
+            background: transparent;
+        }
+        
+        .navbar-header button.navbar-toggle {
+            clear: both;
+            margin-top: -30px;
+        }
+        
+        #main-content .topic {
+            text-align: center;
+            text-shadow: 2px 1px 1px rgb(37, 35, 61);
+            font-size: 2em;
+            font-weight: bolder;
+            font-variant: small-caps;
+        }
+        
+        #main-content {
+            background-color: #545454;
+            padding: 25px;
+            text-align: justify;
+        }
