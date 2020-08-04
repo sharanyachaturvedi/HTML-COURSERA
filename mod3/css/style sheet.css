@@ -1,5 +1,7 @@
                body {
-            background-color: #000;
+            ackground-image: url("footer.png");
+            background-repeat: repeat;
+            background-position: center;
             color: black;
             font-family: 'Fjalla One', sans-serif;
         }
@@ -104,7 +106,10 @@
         }
         
         #main-content {
-            background-color: #545454;
+            background-image: url("sexybatman.png");
+            background-repeat: repeat;
+            background-position: center;
+            background-size: contain;
             padding: 25px;
             text-align: justify;
             padding-bottom: 10px;
