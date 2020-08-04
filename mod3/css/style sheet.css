@@ -1,4 +1,4 @@
-        body {
+               body {
             background-color: #000;
             color: black;
             font-family: 'Fjalla One', sans-serif;
@@ -10,7 +10,9 @@
         /*header navigation bar*/
         
         #header-nav {
-            background-color: #fee121;
+            background-image: url("header.png");
+            background-repeat: repeat;
+            background-position: center;
             border-radius: 0px;
             border: 0;
             color: black;
@@ -97,15 +99,31 @@
             font-weight: bolder;
             font-variant: small-caps;
         }
-#headingz{
-
-text-align: center;
-            text-shadow: 2px 1px 1px #fee121;
-            font-size: 2em;
-            font-weight: bolder;}
         
         #main-content {
             background-color: #545454;
             padding: 25px;
             text-align: justify;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        #heading {
+            color: rgb(14, 13, 13);
+            text-align: center;
+            text-shadow: 2px 1px 1px #fee121;
+            font-size: 2em;
+            font-weight: bolder;
+            font-variant: small-caps;
+        }
+        
+        footer {
+            font-size: 0.7em;
+            background-image: url("footer.png");
+            background-repeat: repeat;
+            background-position: center;
+            margin: 1px 1px;
+            color: white;
+            border: 0px !important;
+            letter-spacing: 2px;
         }
