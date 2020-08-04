@@ -93,11 +93,14 @@
         }
         
         #main-content .topic {
-            text-align: center;
-            text-shadow: 2px 1px 1px rgb(37, 35, 61);
-            font-size: 2em;
-            font-weight: bolder;
-            font-variant: small-caps;
+             background-image: url("sexybatman.png");
+            background-repeat: repeat;
+            background-position: center;
+            background-size: contain;
+            padding: 25px;
+            text-align: justify;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
         }
         
         #main-content {
