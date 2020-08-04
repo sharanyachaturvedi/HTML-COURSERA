@@ -97,6 +97,12 @@
             font-weight: bolder;
             font-variant: small-caps;
         }
+#headingz{
+color:white;
+text-align: center;
+            text-shadow: 2px 1px 1px #fee121;
+            font-size: 2em;
+            font-weight: bolder;}
         
         #main-content {
             background-color: #545454;
